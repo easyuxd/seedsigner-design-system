@@ -21,7 +21,7 @@
 
 ## Overview
 
-![Main Menu](images/main-menu.png)
+![Main Menu](images/menu.png)
 
 A modern, user-friendly GUI to make the SeedSigner software interface more accessible to non-technical users.
 
