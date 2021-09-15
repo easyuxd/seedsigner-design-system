@@ -21,7 +21,9 @@
 
 ## Overview
 
-Create a user-friendly GUI to make the SeedSigner software interface more accessible to non-technical users.
+![Main Menu](images/main-menu.png)
+
+A modern, user-friendly GUI to make the SeedSigner software interface more accessible to non-technical users.
 
 ### Design Goals:
 
@@ -99,13 +101,19 @@ Create a user-friendly GUI to make the SeedSigner software interface more access
 
 ### Components
 
+![Navigation Bar](images/navbar.png)
+
 * **Navigation Bar** (240x48)
 	* Back Arrow (left placement)
 	* Location (13 char max, center placement)
 	* Optional Global Entry Point (e.g. Sign Off/Settings, right placement) 
 
+![Menu Tile](images/menu-tile.png)
+
 * **Menu Tile** (108x80)
 	* Contains: Icon (40x40), Label (10 char max)
+
+![Buttons](images/buttons.png)
 
 * **Buttons**
 	* Large (224x32) - Standard CTAs (100% width)
@@ -113,16 +121,24 @@ Create a user-friendly GUI to make the SeedSigner software interface more access
 	* Small (32x32) - General usage, Navigation Bar
 	* XS (24x24) - Floating Action Buttons, Keyboard
 
+![List Item](images/list-item.png)
+
 * **List Item** (224x32)
 	* Text
 	* Text with icon
 
+![Dice](images/dice.png)
+
 * **Dice Entry Button** (64x64)
 
-* **Seed word** (108x21)
+![Seed Word](images/seed-word.png)
+
+* **Seed Word** (108x21)
 
 
 #### Color Palette
+
+![Color Palette](images/color-palette.png)
 
 * **Background:** #0A0A0A
 * **Containers:** #2C2C2C
