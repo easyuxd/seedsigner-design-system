@@ -68,6 +68,7 @@ Create a user-friendly GUI to make the SeedSigner software interface more access
 **Prototype:** [Figma Prototype](https://www.figma.com/proto/SXln0v3bN0qE05kkP6wuED/seedsigner?page-id=0%3A1&node-id=2879%3A3954&viewport=241%2C48%2C0.31&scaling=min-zoom&starting-point-node-id=2879%3A3954&show-proto-sidebar=1)
 * Arrow keys to navigate
 * Space to select
+
 **Design File:** [Figma](#)
 
 **Included:**
