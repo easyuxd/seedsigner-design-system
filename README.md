@@ -81,6 +81,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * Colors (Dark Mode)
 * Icons
 
+---
 
 ### Spacing
 
@@ -98,6 +99,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * 8px minumum padding between UI elements.
 * Buttons/targets should be a minimum of 24px for legibility.
 
+---
 
 ![Components](images/components.png)
 
@@ -125,6 +127,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 * **Seed Word** (108x21)
 
+---
 
 ![Color Palette](images/color-palette.png)
 
@@ -144,6 +147,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * **Blue (Hover/Active state):** #0084FF
 * **Orange (Hover/Active state):** #FF9F0A
 
+---
 
 ### Iconography
 
@@ -177,6 +181,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 	* Scan QR Code
 	* Scan Image
 
+---
 
 ### Interactions
 
