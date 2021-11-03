@@ -99,44 +99,58 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 #### Overview:
 * Navbar present on all screens.
 * Content area begins directly below Navbar.
+ 
 ![Layout Overview](images/layout/overview.png)
-
+ 
+ 
 #### Menus:
-
-**Grid Menu**
+* Grid Menu
+* List Menu
+ 
 ![Grid Menu](images/layout/grid-menu.png)
-
-**List Menu**
+ 
 ![List Menu](images/layout/list-menu.png)
-
+ 
+ 
 #### Dialogs:
 *Variants: 1-button, 2-button, 3-button*
-![Dialogs](images/layout/dialog.png)
 
+![Dialogs](images/layout/dialog.png)
+ 
+ 
 #### Informational:
 *Variants: Transaction Details, XPUB Details*
+ 
 ![Informational](images/layout/informational.png)
-
+ 
+ 
 #### Word List:
 ![Word List](images/layout/word-list.png)
-
+ 
+ 
 #### Messaging:
 *Variants: Confirmation, Alert, Error*
+ 
 ![Messaging](images/layout/messaging.png)
-
+ 
+ 
 #### Input:
 * Word Input
 * Keyboard Input (Passphrase, Derivation, etc.)
 * Dice Input
+ 
 ![Input](images/layout/input.png)
-
+ 
+ 
 #### Capture Photo:
+ 
 ![Capture Photo](images/layout/photo.png)
-
+ 
+ 
 #### Transcribe QR:
 ![Transcribe QR](images/layout/transcribe-qr.png)
-
-
+ 
+ 
 ![Components](images/components.png)
 
 ### Components
