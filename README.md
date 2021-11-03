@@ -75,7 +75,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 **Design File:** [Figma](#)
 
 
-### Measurements
+## Measurements
 
 **Standard Measurements (8px Grid System):**
 * 4px
@@ -90,20 +90,20 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * 8px margins maintained around layouts (224px usable space).
 * 8px minumum padding between UI elements (when possible).
 * Buttons/targets should be a minimum of 24px for legibility.
-
-
+ 
+ 
+## Layouts
+ 
 ![Layouts](images/layouts.png)
 
-### Layouts
-
-#### Overview:
+### Overview:
 * Navbar present on all screens.
 * Content area begins directly below Navbar.
  
 ![Layout Overview](images/layout/overview.png)
  
  
-#### Menus:
+### Menus:
 * Grid Menu
 * List Menu
  
@@ -112,48 +112,48 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 ![List Menu](images/layout/list-menu.png)
  
  
-#### Dialogs:
+### Dialogs:
 *Variants: 1-button, 2-button, 3-button*
 
 ![Dialogs](images/layout/dialog.png)
  
  
-#### Informational:
+### Informational:
 *Variants: Transaction Details, XPUB Details*
  
 ![Informational](images/layout/informational.png)
  
  
-#### Word List:
+### Word List:
 ![Word List](images/layout/word-list.png)
  
  
-#### Messaging:
+### Messaging:
 *Variants: Confirmation, Alert, Error*
  
 ![Messaging](images/layout/messaging.png)
  
  
-#### Input:
+### Input:
 * Word Input
 * Keyboard Input (Passphrase, Derivation, etc.)
 * Dice Input
  
 ![Input](images/layout/input.png)
  
- 
-#### Capture Photo:
+
+### Capture Photo:
  
 ![Capture Photo](images/layout/photo.png)
  
  
-#### Transcribe QR:
+### Transcribe QR:
 ![Transcribe QR](images/layout/transcribe-qr.png)
  
  
+## Components
+ 
 ![Components](images/components.png)
-
-### Components
 
 * **Navigation Bar** (240x48)
 	* Back Arrow (left placement)
@@ -187,9 +187,9 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 	* 2-line (224x60)
 
 
+## Color Palette
+ 
 ![Color Palette](images/color-palette.png)
-
-#### Color Palette
 
 * **Background:** #0A0A0A
 * **Containers:** #2C2C2C
@@ -206,7 +206,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * **Orange (Hover/Active state):** #FF9F0A
 
 
-### Iconography
+## Iconography
 
 * **Menu:**
 	* Tools
@@ -239,7 +239,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 	* Scan Image
 
 
-### Interactions
+## Interactions
 
 * **Navigation:**
 	* Next - Continue to next step
