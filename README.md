@@ -7,7 +7,8 @@
 	- [Proposed Enhancements](#proposed-enhancements)
 * [Key Performance Indicators](#key-performance-indicators)
 * [Design System](#design-system)
-	- [Spacing](#spacing)
+	- [Measurements](#measurements)
+	- [Layouts](#layouts)
 	- [Components](#components)
 	- [Color palette](#color-palette)
 	- [Icons](#iconography)
@@ -67,23 +68,14 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 ## Design System
 
-**Prototype:** [Figma Prototype](https://www.figma.com/proto/SXln0v3bN0qE05kkP6wuED/seedsigner?page-id=0%3A1&node-id=2879%3A3954&viewport=241%2C48%2C0.31&scaling=min-zoom&starting-point-node-id=2879%3A3954&show-proto-sidebar=1)
+**Prototype (WIP):** [Figma Prototype](https://www.figma.com/proto/SXln0v3bN0qE05kkP6wuED/seedsigner?page-id=0%3A1&node-id=2879%3A3954&viewport=241%2C48%2C0.31&scaling=min-zoom&starting-point-node-id=2879%3A3954&show-proto-sidebar=1)
 * Arrow keys to navigate
 * Space to select
 
 **Design File:** [Figma](#)
 
-**Included:**
-* Menu Screens
-* Primary User Flows
-* Example Screens
-* Components
-* Colors (Dark Mode)
-* Icons
 
----
-
-### Spacing
+### Measurements
 
 **Standard Measurements (8px Grid System):**
 * 4px
@@ -96,10 +88,54 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 **Notes:**
 * 8px margins maintained around layouts (224px usable space).
-* 8px minumum padding between UI elements.
+* 8px minumum padding between UI elements (when possible).
 * Buttons/targets should be a minimum of 24px for legibility.
 
----
+
+![Layouts](images/layouts.png)
+
+### Layouts
+
+#### Overview:
+* Navbar present on all screens.
+* Content area begins directly below Navbar.
+![Layout Overview](images/layout/overview.png)
+
+#### Menus:
+
+**Grid Menu**
+![Grid Menu](images/layout/grid-menu.png)
+
+**List Menu**
+![List Menu](images/layout/list-menu.png)
+
+#### Dialogs:
+*Variants: 1-button, 2-button, 3-button*
+![Dialogs](images/layout/dialog.png)
+
+#### Informational:
+*Variants: Transaction Details, XPUB Details*
+![Informational](images/layout/informational.png)
+
+#### Word List:
+![Word List](images/layout/word-list.png)
+
+#### Messaging:
+*Variants: Confirmation, Alert, Error*
+![Messaging](images/layout/messaging.png)
+
+#### Input:
+* Word Input
+* Keyboard Input (Passphrase, Derivation, etc.)
+* Dice Input
+![Input](images/layout/input.png)
+
+#### Capture Photo:
+![Capture Photo](images/layout/photo.png)
+
+#### Transcribe QR:
+![Transcribe QR](images/layout/transcribe-qr.png)
+
 
 ![Components](images/components.png)
 
@@ -123,11 +159,19 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 	* Text
 	* Text with icon
 
+* **Info Tile**
+	* 1-line (224x40)
+	* 2-line (224x60)
+	* 3-line (224x80)
+
 * **Dice Entry Button** (64x64)
 
-* **Seed Word** (108x21)
+* **Seed Word** (108x20)
 
----
+* **Messaging**
+	* 1-line (224x48)
+	* 2-line (224x60)
+
 
 ![Color Palette](images/color-palette.png)
 
@@ -147,7 +191,6 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * **Blue (Hover/Active state):** #0084FF
 * **Orange (Hover/Active state):** #FF9F0A
 
----
 
 ### Iconography
 
@@ -181,7 +224,6 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 	* Scan QR Code
 	* Scan Image
 
----
 
 ### Interactions
 
@@ -251,7 +293,6 @@ _When used, should align with the larger navigation ecosystem._
 * Create awareness of additional services/features
 
 
-
 ---
 
 
@@ -262,3 +303,6 @@ _When used, should align with the larger navigation ecosystem._
 
 **v0.2** __(2021-09-14)__
 * Table of contents, IA best practices, key performance indicators
+
+**v0.3** __(2021-10-31)__
+* Added layouts, added info tile and messaging components, updated color palette image, minor copy edits
