@@ -103,7 +103,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
   
 **Type Styles:**
 
-- **Title:** - 18px / 22 lh (Bold)
+- **Title:** 18px / 22 lh (Bold)
 - **Menu Label:** 16px / 20 lh (Bold)
 - **Button Large:** 18px / 22 lh (SemiBold)
 - **Button:** 17px / 22 lh (SemiBold)
@@ -170,14 +170,19 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
  
 ### Dialogs:
 
-*Variants: 1-button, 2-button, 3-button*
+Variants:
+- 1-button
+- 2-button
+- 3-button*
 
 ![Dialogs](images/layouts/dialog.png)
  
  
 ### Informational:
 
-*Variants: Transaction Details, XPUB Details*
+Variants:
+- Transaction Details
+- XPUB Details
  
 ![Informational](images/layouts/informational.png)
  
@@ -188,12 +193,17 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
  
  
 ### Messaging:
-*Variants: Confirmation, Alert, Error*
+
+Variants:
+- Confirmation
+- Warning
+- Error
  
 ![Messaging](images/layouts/messaging.png)
  
  
 ### Input:
+
 - Word Input
 - Keyboard Input (Passphrase, Derivation, etc.)
 - Dice Input
@@ -327,7 +337,7 @@ States:
 ![Medium Button - Redlines](images/components/button-medium-redlines.png)
 
 
-#### Small (24x24)
+#### Small Button (24x24)
 
 *Usage: Floating Action Buttons (icon), Keyboard Keys*
   
@@ -468,7 +478,8 @@ Variants:
 
 ## Interactions
 
-* **Navigation:**
+#### Navigation:
+
 - Next - Continue to next step
 - Done - End of flow, return to entry point (non-destructive)
 - OK/Close - Exit current screen (non-destructive)
@@ -481,7 +492,7 @@ Variants:
 ## Content Strategy
 
 
-## IA Best Practices:
+### IA Best Practices:
 
 
 ### Clear and concise labeling
