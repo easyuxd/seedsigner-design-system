@@ -8,9 +8,10 @@
 * [Key Performance Indicators](#key-performance-indicators)
 * [Design System](#design-system)
 	- [Measurements](#measurements)
+	- [Typography](#typography)
+	- [Color Palette](#color-palette)
 	- [Layouts](#layouts)
 	- [Components](#components)
-	- [Color palette](#color-palette)
 	- [Icons](#iconography)
 	- [Interactions](#interactions)
 * [Content Strategy](#content-strategy)
@@ -90,48 +91,93 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * 8px margins maintained around layouts (224px usable space).
 * 8px minumum padding between UI elements (when possible).
 * Buttons/targets should be a minimum of 24px for legibility.
+
+
+
+## Typography
  
+![Typography](images/typography.png)
+  
+*All typography uses the Open Sans font family and follows a set of type styles, each with an associated font size (px), line height (px), and font weight.*
+  
+**Type Styles:**
+	- **Title:** - 18px / 22 lh (Bold)
+	- **Menu Label:** 16px / 20 lh (Bold)
+	- **Button Large:** 18px / 22 lh (SemiBold)
+	- **Button:** 17px / 22 lh (SemiBold)
+	- **Heading** 17px / 22 lh (SemiBold)
+	- **Body Strong:** 17px / 22 lh (SemiBold)
+	- **Body:** 17px / 22 lh (Regular)
+	- **Body Small:** 16px / 20 lh (SemiBold)
+	- **Caption:** 14px / 18 lh (SemiBold)
+
+
+## Color Palette
  
+![Color Palette](images/color-palette.png)
+  
+*The SeedSigner color palette is designed for a 'dark mode' interface. Light text/images on a dark background provide adequate contrast, while color should be used sparingly in messaging or iconography when applicable.*
+  
+![Background](images/colors/swatch-background.svg) **Background:** #0A0A0A
+![Container](images/colors/swatch-container.svg) **Container:** #2C2C2C
+![Container - Disabled](images/colors/swatch-container.svg) **Container (Disabled):** #2C2C2C, 70%
+  
+![Primary](images/colors/swatch-primary.svg) **Primary:** #FCFCFC
+![Secondary](images/colors/swatch-secondary.svg) **Secondary:** #FCFCFC, 70%
+![Active](images/colors/swatch-active.svg) **Orange (Hover/Active):** #FF9F0A
+
+![Informational](images/colors/swatch-informational.svg) **Blue (Informational, Context):** #0084FF
+![Success](images/colors/swatch-success.svg) **Success:** #30D158
+![Warning](images/colors/swatch-warning.svg) **Warning:** #FFD60A
+![Error](images/colors/swatch-error.svg) **Error:** #FF453A
+
+
+
 ## Layouts
  
 ![Layouts](images/layouts.png)
 
 ### Overview:
+
 * Navbar present on all screens.
 * Content area begins directly below Navbar.
  
-![Layout Overview](images/layout/overview.png)
+![Layout Overview](images/layouts/overview.png)
  
  
 ### Menus:
+
 * Grid Menu
 * List Menu
  
-![Grid Menu](images/layout/grid-menu.png)
+![Grid Menu](images/layouts/grid-menu.png)
  
-![List Menu](images/layout/list-menu.png)
+![List Menu](images/layouts/list-menu.png)
  
  
 ### Dialogs:
+
 *Variants: 1-button, 2-button, 3-button*
 
-![Dialogs](images/layout/dialog.png)
+![Dialogs](images/layouts/dialog.png)
  
  
 ### Informational:
+
 *Variants: Transaction Details, XPUB Details*
  
-![Informational](images/layout/informational.png)
+![Informational](images/layouts/informational.png)
  
  
 ### Word List:
-![Word List](images/layout/word-list.png)
+
+![Word List](images/layouts/word-list.png)
  
  
 ### Messaging:
 *Variants: Confirmation, Alert, Error*
  
-![Messaging](images/layout/messaging.png)
+![Messaging](images/layouts/messaging.png)
  
  
 ### Input:
@@ -139,71 +185,237 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * Keyboard Input (Passphrase, Derivation, etc.)
 * Dice Input
  
-![Input](images/layout/input.png)
+![Input](images/layouts/input.png)
  
 
 ### Capture Photo:
  
-![Capture Photo](images/layout/photo.png)
+![Capture Photo](images/layouts/photo.png)
  
  
 ### Transcribe QR:
-![Transcribe QR](images/layout/transcribe-qr.png)
+
+![Transcribe QR](images/layouts/transcribe-qr.png)
  
  
 ## Components
- 
+
 ![Components](images/components.png)
 
-* **Navigation Bar** (240x48)
-	* Back Arrow (left placement)
-	* Location (13 char max, center placement)
-	* Optional Global Entry Point (e.g. Sign Off/Settings, right placement) 
+### Navigation Bar (240x48)
 
-* **Menu Tile** (108x80)
-	* Contains: Icon (40x40), Label (10 char max)
+*Usage: Included on every screen, fixed to top of viewport.*
+*All elements within the Navigation Bar are conditional. Titles should always be included if possible.*
 
-* **Buttons**
-	* Large (224x32) - Standard CTAs (100% width)
-	* Medium (108x32) - 2-up CTAs (50% width) 
-	* Small (32x32) - General usage, Navigation Bar
-	* XS (24x24) - Floating Action Buttons, Keyboard
-
-* **List Item** (224x32)
-	* Text
-	* Text with icon
-
-* **Info Tile**
-	* 1-line (224x40)
-	* 2-line (224x60)
-	* 3-line (224x80)
-
-* **Dice Entry Button** (64x64)
-
-* **Seed Word** (108x20)
-
-* **Messaging**
-	* 1-line (224x48)
-	* 2-line (224x60)
+![Navigation Bar](images/components/navbar.png)
+  
+Anatomy:
+	- Back Arrow (Medium Button)
+	- Title (13 character max)
+	- Action Button (Medium Button)
+	- Down Arrow (For pagination, displayed when scroll-up is available)
+  
+![Navigation Bar - Redlines](images/components/navbar-redlines.png)
+  
+Variants:
+	- Standard
+	- Transparent (no title)
 
 
-## Color Palette
- 
-![Color Palette](images/color-palette.png)
+### Grid Item (108x80)
 
-* **Background:** #0A0A0A
-* **Containers:** #2C2C2C
+![Grid Item](images/components/grid.png)
+  
+Anatomy:
+	- Contains: Icon (40x40)
+	- Label (10 character max)
+  
+![Grid Item - Redlines](images/components/grid-redlines.png)
+  
+States:
+	- Default
+	- Active
+	- Disabled
 
-* **Primary Text:** #FCFCFC
-* **Secondary Text:** #FCFCFC (70% opacity)
 
-* **Green (Success):** #30D158
-* **Yellow (Alert):** #FFD60A
-* **Red (Warning/Error):** #FF453A
+### List Item (224x32)
+
+![List Item](images/components/list.png)
+  
+States:
+	- Default
+	- Active
+	- Disabled
+	- First
+	- Last
+  
+![List Item - Redlines](images/components/list-redlines.png)
+  
+Variants:
+	- Left Text
+	- Left Text w/ Chevron
+	- Left Text w/ Icon
+	- Left + Right Text
+	- Left + Right Text w/ Icon
 
 
-* **Blue (Hover/Active state):** #0084FF
-* **Orange (Hover/Active state):** #FF9F0A
+### CTAs
+
+*Usage: Set of buttons allowing for selection from 1-3 options. Fixed to bottom of viewport.*
+  
+![CTAs](images/components/ctas.png)
+  
+Variants:
+	- 1-Button (224x32)
+	- 2-Button (224x72)
+	- 3-Button (224x112)
+	- 2-up (224x32)
+  
+![CTAs - Redlines](images/components/ctas-redlines.png)
+
+
+### Buttons
+
+#### Large Button (224x32):
+
+*Usage: Call-to-action*
+  
+![Large Button](images/components/button-large.png)
+  
+Sizes:
+	- Standard (100% width)
+	- 2-up (50% width)
+  
+States:
+	- Default
+	- Active
+	- Disabled
+	- Alert
+  
+![Large Button - Redlines](images/components/button-large-redlines.png)
+  
+Variants:
+	- Text only
+	- Text w/ Icon
+
+
+#### Medium Button (32x32)
+
+*Usage: General, Navigation Bar*
+  
+![Medium Button](images/components/button-medium.png)
+  
+States:
+	- Default
+	- Active
+	- Disabled
+  
+![Medium Button - Redlines](images/components/button-medium-redlines.png)
+
+
+#### Small (24x24)
+
+*Usage: Floating Action Buttons (icon), Keyboard Keys*
+  
+![Small Button](images/components/button-small.png)
+  
+States:
+	- Default
+	- Active
+	- Disabled
+  
+![Small Button - Redlines](images/components/button-small-redlines.png)
+
+
+#### Flyout Button (48x24)
+
+*Usage: Floating Action Buttons (text)*
+  
+![Flyout Button](images/components/button-flyout.png)
+  
+States:
+	- Default
+	- Active
+	- Disabled
+  
+![Flyout Button - Redlines](images/components/button-flyout-redlines.png)
+
+
+#### Word Input Button (64x24)
+
+*Usage: Word Entry UI*
+  
+![Word Input](images/components/button-word.png)
+  
+States:
+	- Default
+	- Active
+  
+![Word Input - Redlines](images/components/button-word-redlines.png)
+
+
+#### Dice Input Button (64x64)
+
+*Usage: Dice Entry UI*
+  
+![Dice Input](images/components/button-dice.png)
+  
+States:
+	- Default
+	- Active
+  
+![Dice Input - Redlines](images/components/button-dice-redlines.png)
+
+
+### Input Field (64x24)
+
+*Usage: Passphrase Entry, Derivation Entry*
+  
+![Input Field](images/components/input-field.png)
+  
+![Input Field - Redlines](images/components/input-field-redlines.png)
+
+
+### Word List (108x20)
+
+*Usage: View/Review Seed Words*
+  
+![Word List](images/components/word-list.png)
+  
+![Word List - Redlines](images/components/word-list-redlines.png)
+
+
+### Table
+
+*Usage: Informational screens*
+  
+![Table](images/components/table.png)
+  
+Variants:
+	- 1-row (224x40)
+	- 2-row (224x60)
+	- 3-row (224x80)
+  
+![Table - Redlines](images/components/table-redlines.png)
+
+
+### Messaging
+
+*Usage: Contextual overlays*
+  
+![Messaging](images/components/messaging.png)
+  
+Messaging Types:
+	- Default
+	- Success
+	- Warning
+	- Error
+  
+![Messaging - Redlines](images/components/messaging-redlines.png)
+  
+Variants:
+	- No Subtitle (224x48)
+	- Subtitle (224x60)
 
 
 ## Iconography
@@ -225,18 +437,19 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 	* I/O Test
 	* Info
 	* Donate
-
+  
 * **Messaging:**
 	* Confirmation
-	* Alert
+	* Warning
 	* Error
-
+  
 * **Misc:**
 	* Save
 	* Available
 	* Unavailable
 	* Scan QR Code
 	* Scan Image
+	* Loading Spinner
 
 
 ## Interactions
@@ -258,53 +471,57 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 
 ### Clear and concise labeling
-_Categories and labels should be clear and meaningful to users._
 
+_Categories and labels should be clear and meaningful to users._
+  
 **Navigational labels should:**
-* Make sense to all users, not just to advanced Bitcoin users
-* Be concise -- maximum of 2 words if possible
-* Only lead with an action verb when it's necessary for clarity
-* Use "&"" instead of "and" for readability and space efficiency
-* Meet users' expectations of what they'll find at a destination
+	- Make sense to all users, not just to advanced Bitcoin users
+	- Be concise -- maximum of 2 words if possible
+	- Only lead with an action verb when it's necessary for clarity
+	- Use "&"" instead of "and" for readability and space efficiency
+	- Meet users' expectations of what they'll find at a destination
 
 
 ### Intuitive groupings
-_Like items should be clustered for enhanced discoverability._
 
+_Like items should be clustered for enhanced discoverability._
+  
 **Navigational groupings should:**
-* Meet customer expectation (mental model)
-* Consist of like items
-* Adhere to cognitive load best practices
-* Not have too many (or too few) items in a category
+	- Meet customer expectation (mental model)
+	- Consist of like items
+	- Adhere to cognitive load best practices
+	- Not have too many (or too few) items in a category
 
 
 ### Expected hierarchy
-_The order of items should make sense and meet user expectations._
 
+_The order of items should make sense and meet user expectations._
+  
 **Menu item hierarchy should:**
-* Derive from user expectations
-* Prioritize frequently-used and urgent tasks
-* Leverage a common heirarchy of left-to-right or top-to-bottom based on frequency, urgency, and promoting awareness
-* Utilize last position in a list (e.g. users expect Help/Contact near the bottom)
+	- Derive from user expectations
+	- Prioritize frequently-used and urgent tasks
+	- Leverage a common heirarchy of left-to-right or top-to-bottom based on frequency, urgency, and promoting awareness
+	- Utilize last position in a list (e.g. users expect Help/Contact near the bottom)
 
 
 ### Cognitive load control
-_Decrease clutter that may confuse or distract users._
 
+_Decrease clutter that may confuse or distract users._
+  
 **To reduce cognitive load:**
-* Limit the number of menus, categories, and items
-* Avoid using a general category as a catch-all for orphan items
-* Avoid visual clutter that may confuse or distract users
+	- Limit the number of menus, categories, and items
+	- Avoid using a general category as a catch-all for orphan items
+	- Avoid visual clutter that may confuse or distract users
 
 
 ### Complementary contextual navigation
 _When used, should align with the larger navigation ecosystem._
-
+  
 **Contextual navigation should:**
-* Meet users' mental model for finding information and performing tasks
-* Be easily visible and actionable
-* Enhance but not duplicate the global navigation
-* Create awareness of additional services/features
+	- Meet users' mental model for finding information and performing tasks
+	- Be easily visible and actionable
+	- Enhance but not duplicate the global navigation
+	- Create awareness of additional services/features
 
 
 ---
@@ -313,10 +530,13 @@ _When used, should align with the larger navigation ecosystem._
 ## Version History
 
 **v0.1** __(2021-07-16)__
-* Overview, design goals, proposed enhancements, preliminary design system
-
+	- Overview, design goals, proposed enhancements, preliminary design system
+  
 **v0.2** __(2021-09-14)__
-* Table of contents, IA best practices, key performance indicators
-
+	- Table of contents, IA best practices, key performance indicators
+  
 **v0.3** __(2021-10-31)__
-* Added layouts, added info tile and messaging components, updated color palette image, minor copy edits
+	- Added layouts, added info tile and messaging components, updated color palette image, minor copy edits
+  
+**v0.4** __(2021-11-20)__
+	- Added typography, color palette, components
