@@ -70,8 +70,8 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 ## Design System
 
 **Prototype (WIP):** [Figma Prototype](https://www.figma.com/proto/SXln0v3bN0qE05kkP6wuED/seedsigner?page-id=0%3A1&node-id=2879%3A3954&viewport=241%2C48%2C0.31&scaling=min-zoom&starting-point-node-id=2879%3A3954&show-proto-sidebar=1)
-* Arrow keys to navigate
-* Space to select
+- Arrow keys to navigate
+- Space to select
 
 **Design File:** [Figma](#)
 
@@ -79,18 +79,19 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 ## Measurements
 
 **Standard Measurements (8px Grid System):**
-* 4px
-* 8px
-* 12px
-* 16px
-* 24px
-* 32px
-* 64px
+
+- 4px
+- 8px
+- 12px
+- 16px
+- 24px
+- 32px
+- 64px
 
 **Notes:**
-* 8px margins maintained around layouts (224px usable space).
-* 8px minumum padding between UI elements (when possible).
-* Buttons/targets should be a minimum of 24px for legibility.
+- 8px margins maintained around layouts (224px usable space).
+- 8px minumum padding between UI elements (when possible).
+- Buttons/targets should be a minimum of 24px for legibility.
 
 
 
@@ -101,15 +102,16 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 *All typography uses the Open Sans font family and follows a set of type styles, each with an associated font size (px), line height (px), and font weight.*
   
 **Type Styles:**
-	* **Title:** - 18px / 22 lh (Bold)
-	* **Menu Label:** 16px / 20 lh (Bold)
-	* **Button Large:** 18px / 22 lh (SemiBold)
-	* **Button:** 17px / 22 lh (SemiBold)
-	* **Heading** 17px / 22 lh (SemiBold)
-	* **Body Strong:** 17px / 22 lh (SemiBold)
-	* **Body:** 17px / 22 lh (Regular)
-	* **Body Small:** 16px / 20 lh (SemiBold)
-	* **Caption:** 14px / 18 lh (SemiBold)
+
+- **Title:** - 18px / 22 lh (Bold)
+- **Menu Label:** 16px / 20 lh (Bold)
+- **Button Large:** 18px / 22 lh (SemiBold)
+- **Button:** 17px / 22 lh (SemiBold)
+- **Heading** 17px / 22 lh (SemiBold)
+- **Body Strong:** 17px / 22 lh (SemiBold)
+- **Body:** 17px / 22 lh (Regular)
+- **Body Small:** 16px / 20 lh (SemiBold)
+- **Caption:** 14px / 18 lh (SemiBold)
 
 
 ## Color Palette
@@ -150,16 +152,16 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 ### Overview:
 
-* Navbar present on all screens.
-* Content area begins directly below Navbar.
+- Navbar present on all screens.
+- Content area begins directly below Navbar.
  
 ![Layout Overview](images/layouts/overview.png)
  
  
 ### Menus:
 
-* Grid Menu
-* List Menu
+- Grid Menu
+- List Menu
  
 ![Grid Menu](images/layouts/grid-menu.png)
  
@@ -192,9 +194,9 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
  
  
 ### Input:
-* Word Input
-* Keyboard Input (Passphrase, Derivation, etc.)
-* Dice Input
+- Word Input
+- Keyboard Input (Passphrase, Derivation, etc.)
+- Dice Input
  
 ![Input](images/layouts/input.png)
  
@@ -222,16 +224,16 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 ![Navigation Bar](images/components/navbar.png)
   
 Anatomy:
-	* Back Arrow (Medium Button)
-	* Title (13 character max)
-	* Action Button (Medium Button)
-	* Down Arrow (For pagination, displayed when scroll-up is available)
+- Back Arrow (Medium Button)
+- Title (13 character max)
+- Action Button (Medium Button)
+- Down Arrow (For pagination, displayed when scroll-up is available)
   
 ![Navigation Bar - Redlines](images/components/navbar-redlines.png)
   
 Variants:
-	* Standard
-	* Transparent (no title)
+- Standard
+- Transparent (no title)
 
 
 ### Grid Item (108x80)
@@ -239,15 +241,15 @@ Variants:
 ![Grid Item](images/components/grid.png)
   
 Anatomy:
-	* Contains: Icon (40x40)
-	* Label (10 character max)
+- Contains: Icon (40x40)
+- Label (10 character max)
   
 ![Grid Item - Redlines](images/components/grid-redlines.png)
   
 States:
-	* Default
-	* Active
-	* Disabled
+- Default
+- Active
+- Disabled
 
 
 ### List Item (224x32)
@@ -255,20 +257,20 @@ States:
 ![List Item](images/components/list.png)
   
 States:
-	* Default
-	* Active
-	* Disabled
-	* First
-	* Last
+- Default
+- Active
+- Disabled
+- First
+- Last
   
 ![List Item - Redlines](images/components/list-redlines.png)
   
 Variants:
-	* Left Text
-	* Left Text w/ Chevron
-	* Left Text w/ Icon
-	* Left + Right Text
-	* Left + Right Text w/ Icon
+- Left Text
+- Left Text w/ Chevron
+- Left Text w/ Icon
+- Left + Right Text
+- Left + Right Text w/ Icon
 
 
 ### CTAs
@@ -278,10 +280,10 @@ Variants:
 ![CTAs](images/components/ctas.png)
   
 Variants:
-	* 1-Button (224x32)
-	* 2-Button (224x72)
-	* 3-Button (224x112)
-	* 2-up (224x32)
+- 1-Button (224x32)
+- 2-Button (224x72)
+- 3-Button (224x112)
+- 2-up (224x32)
   
 ![CTAs - Redlines](images/components/ctas-redlines.png)
 
@@ -295,20 +297,20 @@ Variants:
 ![Large Button](images/components/button-large.png)
   
 Sizes:
-	* Standard (100% width)
-	* 2-up (50% width)
+- Standard (100% width)
+- 2-up (50% width)
   
 States:
-	* Default
-	* Active
-	* Disabled
-	* Alert
+- Default
+- Active
+- Disabled
+- Alert
   
 ![Large Button - Redlines](images/components/button-large-redlines.png)
   
 Variants:
-	* Text only
-	* Text w/ Icon
+- Text only
+- Text w/ Icon
 
 
 #### Medium Button (32x32)
@@ -318,9 +320,9 @@ Variants:
 ![Medium Button](images/components/button-medium.png)
   
 States:
-	* Default
-	* Active
-	* Disabled
+- Default
+- Active
+- Disabled
   
 ![Medium Button - Redlines](images/components/button-medium-redlines.png)
 
@@ -332,9 +334,9 @@ States:
 ![Small Button](images/components/button-small.png)
   
 States:
-	* Default
-	* Active
-	* Disabled
+- Default
+- Active
+- Disabled
   
 ![Small Button - Redlines](images/components/button-small-redlines.png)
 
@@ -346,9 +348,9 @@ States:
 ![Flyout Button](images/components/button-flyout.png)
   
 States:
-	* Default
-	* Active
-	* Disabled
+- Default
+- Active
+- Disabled
   
 ![Flyout Button - Redlines](images/components/button-flyout-redlines.png)
 
@@ -360,8 +362,8 @@ States:
 ![Word Input](images/components/button-word.png)
   
 States:
-	* Default
-	* Active
+- Default
+- Active
   
 ![Word Input - Redlines](images/components/button-word-redlines.png)
 
@@ -373,8 +375,8 @@ States:
 ![Dice Input](images/components/button-dice.png)
   
 States:
-	* Default
-	* Active
+- Default
+- Active
   
 ![Dice Input - Redlines](images/components/button-dice-redlines.png)
 
@@ -404,9 +406,9 @@ States:
 ![Table](images/components/table.png)
   
 Variants:
-	* 1-row (224x40)
-	* 2-row (224x60)
-	* 3-row (224x80)
+- 1-row (224x40)
+- 2-row (224x60)
+- 3-row (224x80)
   
 ![Table - Redlines](images/components/table-redlines.png)
 
@@ -418,16 +420,16 @@ Variants:
 ![Messaging](images/components/messaging.png)
   
 Messaging Types:
-	* Default
-	* Success
-	* Warning
-	* Error
+- Default
+- Success
+- Warning
+- Error
   
 ![Messaging - Redlines](images/components/messaging-redlines.png)
   
 Variants:
-	* No Subtitle (224x48)
-	* Subtitle (224x60)
+- No Subtitle (224x48)
+- Subtitle (224x60)
 
 
 ## Iconography
@@ -467,10 +469,10 @@ Variants:
 ## Interactions
 
 * **Navigation:**
-	* Next - Continue to next step
-	* Done - End of flow, return to entry point (non-destructive)
-	* OK/Close - Exit current screen (non-destructive)
-	* Cancel - End task and return to entry point (destructive)
+- Next - Continue to next step
+- Done - End of flow, return to entry point (non-destructive)
+- OK/Close - Exit current screen (non-destructive)
+- Cancel - End task and return to entry point (destructive)
 
 
 ---
@@ -487,11 +489,11 @@ Variants:
 _Categories and labels should be clear and meaningful to users._
   
 **Navigational labels should:**
-	* Make sense to all users, not just to advanced Bitcoin users
-	* Be concise -- maximum of 2 words if possible
-	* Only lead with an action verb when it's necessary for clarity
-	* Use "&"" instead of "and" for readability and space efficiency
-	* Meet users' expectations of what they'll find at a destination
+- Make sense to all users, not just to advanced Bitcoin users
+- Be concise -- maximum of 2 words if possible
+- Only lead with an action verb when it's necessary for clarity
+- Use "&"" instead of "and" for readability and space efficiency
+- Meet users' expectations of what they'll find at a destination
 
 
 ### Intuitive groupings
@@ -499,10 +501,10 @@ _Categories and labels should be clear and meaningful to users._
 _Like items should be clustered for enhanced discoverability._
   
 **Navigational groupings should:**
-	* Meet customer expectation (mental model)
-	* Consist of like items
-	* Adhere to cognitive load best practices
-	* Not have too many (or too few) items in a category
+- Meet customer expectation (mental model)
+- Consist of like items
+- Adhere to cognitive load best practices
+- Not have too many (or too few) items in a category
 
 
 ### Expected hierarchy
@@ -510,10 +512,10 @@ _Like items should be clustered for enhanced discoverability._
 _The order of items should make sense and meet user expectations._
   
 **Menu item hierarchy should:**
-	* Derive from user expectations
-	* Prioritize frequently-used and urgent tasks
-	* Leverage a common heirarchy of left-to-right or top-to-bottom based on frequency, urgency, and promoting awareness
-	* Utilize last position in a list (e.g. users expect Help/Contact near the bottom)
+- Derive from user expectations
+- Prioritize frequently-used and urgent tasks
+- Leverage a common heirarchy of left-to-right or top-to-bottom based on frequency, urgency, and promoting awareness
+- Utilize last position in a list (e.g. users expect Help/Contact near the bottom)
 
 
 ### Cognitive load control
@@ -521,19 +523,20 @@ _The order of items should make sense and meet user expectations._
 _Decrease clutter that may confuse or distract users._
   
 **To reduce cognitive load:**
-	* Limit the number of menus, categories, and items
-	* Avoid using a general category as a catch-all for orphan items
-	* Avoid visual clutter that may confuse or distract users
+- Limit the number of menus, categories, and items
+- Avoid using a general category as a catch-all for orphan items
+- Avoid visual clutter that may confuse or distract users
 
 
 ### Complementary contextual navigation
+
 _When used, should align with the larger navigation ecosystem._
   
 **Contextual navigation should:**
-	* Meet users' mental model for finding information and performing tasks
-	* Be easily visible and actionable
-	* Enhance but not duplicate the global navigation
-	* Create awareness of additional services/features
+- Meet users' mental model for finding information and performing tasks
+- Be easily visible and actionable
+- Enhance but not duplicate the global navigation
+- Create awareness of additional services/features
 
 
 ---
@@ -542,13 +545,13 @@ _When used, should align with the larger navigation ecosystem._
 ## Version History
 
 **v0.1** __(2021-07-16)__
-	* Overview, design goals, proposed enhancements, preliminary design system
+- Overview, design goals, proposed enhancements, preliminary design system
   
 **v0.2** __(2021-09-14)__
-	* Table of contents, IA best practices, key performance indicators
+- Table of contents, IA best practices, key performance indicators
   
 **v0.3** __(2021-10-31)__
-	* Added layouts, added info tile and messaging components, updated color palette image, minor copy edits
+- Added layouts, added info tile and messaging components, updated color palette image, minor copy edits
   
 **v0.4** __(2021-11-20)__
-	* Added typography, color palette, components
+- Added typography, color palette, components
