@@ -224,12 +224,14 @@ Variants:
 ## Components
 
 ![Components](images/components.png)
+  
+*Components are reusable building blocks that are aggregated to compose a screen layout, with each component serving a specific function.*
 
 ### Navigation Bar (240x48)
 
 *Usage: Included on every screen, fixed to top of viewport.*
 
-*All elements within the Navigation Bar are conditional. Titles should always be included if possible.*
+*All elements within the Navigation Bar are conditional. Titles should always be included when possible.*
 
 ![Navigation Bar](images/components/navbar.png)
   
