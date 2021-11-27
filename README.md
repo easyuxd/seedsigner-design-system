@@ -40,7 +40,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 * **IA:** Accessible groupings of features, surface high-traffic actions
 * **Content:** Simplify labels for viewport optimization and localization
 * **Visual:** Add iconography to reduce cognitive load and aid localization
-* **Visual:** Change font (Impact) to a more legible but space-efficient typeface
+* **Visual:** Change font to a more legible but space-efficient typeface
 
 
 ---
@@ -128,15 +128,13 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 ![Container - Disabled](images/colors/swatch-container.svg) **Container (Disabled):** #2C2C2C, 70%
   
-  
 ![Primary](images/colors/swatch-primary.svg) **Primary:** #FCFCFC
   
 ![Secondary](images/colors/swatch-secondary.svg) **Secondary:** #FCFCFC, 70%
   
-![Active](images/colors/swatch-active.svg) **Orange (Hover/Active):** #FF9F0A
+![Active](images/colors/swatch-active.svg) **Active:** #FF9F0A
   
-  
-![Informational](images/colors/swatch-informational.svg) **Blue (Informational, Context):** #0084FF
+![Informational](images/colors/swatch-informational.svg) **Informational:** #0084FF
   
 ![Success](images/colors/swatch-success.svg) **Success:** #30D158
   
@@ -514,7 +512,7 @@ _Categories and labels should be clear and meaningful to users._
 _Like items should be clustered for enhanced discoverability._
   
 **Navigational groupings should:**
-- Meet customer expectation (mental model)
+- Meet user expectations (mental model)
 - Consist of like items
 - Adhere to cognitive load best practices
 - Not have too many (or too few) items in a category
