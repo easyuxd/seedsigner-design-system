@@ -448,54 +448,59 @@ Variants:
 
 ### Menu:
 
-- [Tools](https://fontawesome.com/icons/screwdriver-wrench?s=solid)* _(40x40)_
-	<img src="images/icons/menu/fa/screwdriver-wrench-solid.svg" alt="icon-tools" width="40" height="40"/>
-
-- [Sign*](https://fontawesome.com/icons/key?s=solid)* _(40x40)_
-	<img src="images/icons/menu/fa/key-solid.svg" alt="icon-sign" width="40" height="40"/>
-
-- [Settings](https://fontawesome.com/icons/gear?s=solid)* _(40x40)_
-	<img src="images/icons/menu/fa/gear-solid.svg" alt="icon-settings" width="40" height="40"/>
-
-- [Power](https://fontawesome.com/icons/power-off?s=solid)* _(40x40)_
-	<img src="images/icons/menu/fa/power-off-solid.svg" alt="icon-power" width="40" height="40"/>
+[Tools](https://fontawesome.com/icons/screwdriver-wrench?s=solid)* _(40x40)_
+<img src="images/icons/menu/fa/screwdriver-wrench-solid.svg" alt="icon-tools" width="40" height="40"/>  
+  
+[Sign](https://fontawesome.com/icons/key?s=solid)* _(40x40)_
+<img src="images/icons/menu/fa/key-solid.svg" alt="icon-sign" width="40" height="40"/>  
+  
+[Settings](https://fontawesome.com/icons/gear?s=solid)* _(40x40)_
+<img src="images/icons/menu/fa/gear-solid.svg" alt="icon-settings" width="40" height="40"/>  
+  
+[Power](https://fontawesome.com/icons/power-off?s=solid)* _(40x40)_
+<img src="images/icons/menu/fa/power-off-solid.svg" alt="icon-power" width="40" height="40"/>  
 
 ### Utility:
 
-- [Back](images/icons/utility/back.svg) _(24x24)_
-	<img src="images/icons/utility/back.svg" alt="icon-back" width="24" height="24"/>
+[Back](images/icons/utility/back.svg) _(24x24)_
+<img src="images/icons/utility/back.svg" alt="icon-back" width="24" height="24"/>  
+  
+[Page Up](images/icons/utility/page-up.svg) _(16x8)_
+<img src="images/icons/utility/page-up.svg" alt="icon-page-up" width="16" height="8"/>  
+  
+[Page Down](images/icons/utility/page-down.svg) _(16x8)_
+<img src="images/icons/utility/page-down.svg" alt="icon-page-down" width="16" height="8"/>  
+  
+[Chevron Right](images/icons/utility/chevron-right.svg) _(8x16)_
+<img src="images/icons/utility/chevron-right.svg" alt="icon-chevron-right" width="8" height="16"/>
 
-- [Page Up](images/icons/utility/page-up.svg) _(16x8)_
-- [Page Down](images/icons/utility/page-down.svg) _(16x8)_
-- [Chevron Right](images/icons/utility/chevron-right.svg) _(8x16)_
-	
 ### Messaging:
 
-- [Confirmation](images/icons/messaging/confirmation.svg) _(40x40)_
-	<img src="images/icons/messaging/confirmation.svg" alt="icon-confirmation" width="40" height="40"/>
-
-- [Warning](images/icons/messaging/warning.svg) _(40x40)_
-	<img src="images/icons/messaging/warning.svg" alt="icon-warning" width="40" height="40"/>
-
-- [Error](images/icons/messaging/error.svg) _(40x40)_
-	<img src="images/icons/messaging/error.svg" alt="icon-error" width="40" height="40"/>
+[Confirmation](images/icons/messaging/confirmation.svg) _(40x40)_
+<img src="images/icons/messaging/confirmation.svg" alt="icon-confirmation" width="40" height="40"/>
+  
+[Warning](images/icons/messaging/warning.svg) _(40x40)_
+<img src="images/icons/messaging/warning.svg" alt="icon-warning" width="40" height="40"/>
+  
+[Error](images/icons/messaging/error.svg) _(40x40)_
+<img src="images/icons/messaging/error.svg" alt="icon-error" width="40" height="40"/>
 
 ### Informational:
 
-- Single-Sig
-- Multi-Sig
-- Private Key
-- Passphrase
-- Recipient
-- Spend
-	<img src="images/icons/informational/bitcoin2.svg" alt="icon-bitcoin2" width="24" height="24"/>
-
-- Change
-- Fee
-- [Derivation](images/icons/informational/derivation.svg)
-	<img src="images/icons/informational/derivation.svg" alt="icon-derivation" width="24" height="24"/>
-
-- xpub
+Single-Sig
+Multi-Sig
+Private Key
+Passphrase
+Recipient
+Spend
+<img src="images/icons/informational/bitcoin2.svg" alt="icon-bitcoin2" width="24" height="24"/>
+  
+Change
+Fee
+[Derivation](images/icons/informational/derivation.svg)
+<img src="images/icons/informational/derivation.svg" alt="icon-derivation" width="24" height="24"/>
+  
+xpub
 
 ### Misc:
 
