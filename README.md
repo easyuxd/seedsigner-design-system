@@ -487,40 +487,41 @@ Variants:
 
 ### Informational:
 
-Single-Sig
-Multi-Sig
-Private Key
-Passphrase
-Recipient
+Single-Sig  
+Multi-Sig  
+Private Key  
+Passphrase  
+Recipient  
 [Spend](images/icons/informational/bitcoin2.svg)   
 <img src="images/icons/informational/bitcoin2.svg" alt="icon-bitcoin2" width="24" height="24"/>
   
-Change
-Fee
+Change  
+Fee  
 [Derivation](images/icons/informational/derivation.svg)  
 <img src="images/icons/informational/derivation.svg" alt="icon-derivation" width="24" height="24"/>
   
-xpub
+Fingerprint  
+xpub  
 
 ### Misc:
 
-- Seed/Key
-- Passphrase
-- Generate XPUB
-- Generate Last Word
-- Wallet
-- Network
-- QR Code
-- I/O Test
-- Info
-- Donate
-
-- Save
-- Available
-- Unavailable
-- Scan QR Code
-- Scan Image
-- Loading Spinner
+Generate XPUB  
+Generate Last Word  
+Dice  
+Coinflip  
+Wallet  
+Network  
+QR Code  
+I/O Test  
+Info  
+Donate  
+Save  
+Available  
+Unavailable  
+More  
+Scan QR Code  
+Scan Image  
+Loading Spinner  
 
 
 ## Interactions
