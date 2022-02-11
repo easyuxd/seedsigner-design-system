@@ -472,39 +472,53 @@ Variants:
 <img src="images/icons/utility/page-down.svg" alt="icon-page-down" width="16" height="8"/>  
   
 [Chevron Right](images/icons/utility/chevron-right.svg) _(8x16)_  
-<img src="images/icons/utility/chevron-right.svg" alt="icon-chevron-right" width="8" height="16"/>
+<img src="images/icons/utility/chevron-right.svg" alt="icon-chevron-right" width="8" height="16"/>  
 
 ### Messaging:
 
 [Confirmation](images/icons/messaging/confirmation.svg) _(40x40)_  
-<img src="images/icons/messaging/confirmation.svg" alt="icon-confirmation" width="40" height="40"/>
+<img src="images/icons/messaging/confirmation.svg" alt="icon-confirmation" width="40" height="40"/>  
   
 [Warning](images/icons/messaging/warning.svg) _(40x40)_  
-<img src="images/icons/messaging/warning.svg" alt="icon-warning" width="40" height="40"/>
+<img src="images/icons/messaging/warning.svg" alt="icon-warning" width="40" height="40"/>  
   
 [Error](images/icons/messaging/error.svg) _(40x40)_  
-<img src="images/icons/messaging/error.svg" alt="icon-error" width="40" height="40"/>
+<img src="images/icons/messaging/error.svg" alt="icon-error" width="40" height="40"/>  
 
 ### Informational:
 
-Single-Sig  
-Multi-Sig  
-Private Key  
-Passphrase  
-Recipient  
-[Spend](images/icons/informational/bitcoin2.svg)   
-<img src="images/icons/informational/bitcoin2.svg" alt="icon-bitcoin2" width="24" height="24"/>
+[Passphrase](https://fontawesome.com/icons/lock?s=solid)* _(24x24)_  
+<img src="images/icons/informational/fa/lock.svg" alt="icon-passphrase" width="24" height="24"/>  
+
+[Recipient](https://fontawesome.com/icons/at?s=solid)* _(24x24)_  
+<img src="images/icons/informational/fa/at-solid.svg" alt="icon-recipient" width="24" height="24"/>  
+
+[Spend](images/icons/informational/bitcoin2.svg)* _(24x24)_  
+<img src="images/icons/informational/bitcoin2.svg" alt="icon-bitcoin2" width="24" height="24"/>  
   
-Change  
-Fee  
-[Derivation](images/icons/informational/derivation.svg)  
-<img src="images/icons/informational/derivation.svg" alt="icon-derivation" width="24" height="24"/>
+[Change](https://fontawesome.com/icons/coins?s=solid)* _(24x24)_  
+<img src="images/icons/informational/fa/coins-solid.svg" alt="icon-change" width="24" height="24"/>  
+
+[Fee](https://fontawesome.com/icons/chart-pie?s=solid)* _(24x24)_  
+<img src="images/icons/informational/fa/chart-pie-solid.svg" alt="icon-fee" width="24" height="24"/>  
+
+[Derivation](images/icons/informational/derivation.svg)* _(24x24)_  
+<img src="images/icons/informational/derivation.svg" alt="icon-derivation" width="24" height="24"/>  
   
-Fingerprint  
-xpub  
+[Fingerprint](images/icons/informational/fingerprint.svg)* _(24x24)_  
+<img src="images/icons/informational/fingerprint.svg" alt="icon-fingerprint" width="24" height="24"/> 
+
+[xPub](https://fontawesome.com/icons/x?s=solid)* _(24x24)_  
+<img src="images/icons/informational/fa/x-solid.svg" alt="icon-xpub" width="24" height="24"/>   
 
 ### Misc:
 
+[More](https://fontawesome.com/icons/ellipsis?s=solid)* _(24x24)_  
+<img src="images/icons/informational/fa/ellipsis-solid.svg" alt="icon-more" width="24" height="24"/>  
+
+Single-Sig
+Multi-Sig
+Private Key
 Generate XPUB  
 Generate Last Word  
 Dice  
@@ -518,7 +532,6 @@ Donate
 Save  
 Available  
 Unavailable  
-More  
 Scan QR Code  
 Scan Image  
 Loading Spinner  
@@ -614,3 +627,6 @@ _When used, should align with the larger navigation ecosystem._
   
 **v0.4** __(2021-11-20)__
 - Added typography, color palette, components
+
+**v0.5** __(2022-02-11)__
+- Added iconography (WIP)
