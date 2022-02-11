@@ -488,7 +488,7 @@ Variants:
 ### Informational:
 
 [Passphrase](https://fontawesome.com/icons/lock?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/lock.svg" alt="icon-passphrase" width="24" height="24"/>  
+<img src="images/icons/informational/fa/lock-solid.svg" alt="icon-passphrase" width="24" height="24"/>  
 
 [Recipient](https://fontawesome.com/icons/at?s=solid)* _(24x24)_  
 <img src="images/icons/informational/fa/at-solid.svg" alt="icon-recipient" width="24" height="24"/>  
