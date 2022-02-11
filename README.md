@@ -516,9 +516,9 @@ Variants:
 [More](https://fontawesome.com/icons/ellipsis?s=solid)* _(24x24)_  
 <img src="images/icons/informational/fa/ellipsis-solid.svg" alt="icon-more" width="24" height="24"/>  
 
-Single-Sig
-Multi-Sig
-Private Key
+Single-Sig  
+Multi-Sig  
+Private Key  
 Generate XPUB  
 Generate Last Word  
 Dice  
