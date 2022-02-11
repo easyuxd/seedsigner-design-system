@@ -444,7 +444,7 @@ Variants:
 
 ## Iconography
 
-***Work-in-progress:** Some iconography uses the [FontAwesome](https://fontawesome.com/) icon library, denoted by an asterisk (*).*
+***Work-in-progress:** Some iconography uses the [FontAwesome](https://fontawesome.com/) icon library, denoted by an asterisk.*
 
 ### Menu:
 
