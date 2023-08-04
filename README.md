@@ -463,7 +463,7 @@ Variants:
 ### Utility:
 
 [Back](images/icons/02-utility/back.svg) _(24x24)_  
-<img src="images/icons/utility/back.svg" alt="icon-back" width="24" height="24"/>  
+<img src="images/icons/02-utility/back.svg" alt="icon-back" width="24" height="24"/>  
   
 [Chevron Down](images/icons/02-utility/chevron-down.svg) _(24x24)_  
 <img src="images/icons/02-utility/chevron-down.svg" alt="icon-chevron-down" width="24" height="24"/>  
