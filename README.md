@@ -69,11 +69,11 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 
 ## Design System
 
-**Prototype (WIP):** [Figma Prototype](https://www.figma.com/proto/SXln0v3bN0qE05kkP6wuED/seedsigner?page-id=0%3A1&node-id=2879%3A3954&viewport=241%2C48%2C0.31&scaling=min-zoom&starting-point-node-id=2879%3A3954&show-proto-sidebar=1)
+**Prototype (WIP):** [Figma Prototype](#)
 - Arrow keys to navigate
 - Space to select
 
-**Design File:** [Figma](#)
+**Design File:** [Figma](https://www.figma.com/file/YCvGdWbyhxPrYqxk8gZWuA/SeedSigner)
 
 
 ## Measurements
@@ -425,7 +425,7 @@ Variants:
 
 ### Messaging
 
-*Usage: Contextual overlays*
+*Usage: Contextual overlays. Does not interrupt experience.*
   
 ![Messaging](images/components/messaging.png)
   
@@ -448,79 +448,107 @@ Variants:
 
 ### Menu:
 
-[Tools](https://fontawesome.com/icons/screwdriver-wrench?s=solid)* _(40x40)_  
-<img src="images/icons/menu/fa/screwdriver-wrench-solid.svg" alt="icon-tools" width="40" height="40"/>  
+[Scan](images/icons/01-menu/scan.svg) _(40x40)_  
+<img src="images/icons/01-menu/scan.svg" alt="icon-scan" width="40" height="40"/>  
   
-[Sign](https://fontawesome.com/icons/key?s=solid)* _(40x40)_  
-<img src="images/icons/menu/fa/key-solid.svg" alt="icon-sign" width="40" height="40"/>  
+[Seeds](images/icons/01-menu/seeds.svg) _(40x40)_  
+<img src="images/icons/01-menu/seeds.svg" alt="icon-seeds" width="40" height="40"/>  
   
-[Settings](https://fontawesome.com/icons/gear?s=solid)* _(40x40)_  
-<img src="images/icons/menu/fa/gear-solid.svg" alt="icon-settings" width="40" height="40"/>  
-  
-[Power](https://fontawesome.com/icons/power-off?s=solid)* _(40x40)_  
-<img src="images/icons/menu/fa/power-off-solid.svg" alt="icon-power" width="40" height="40"/>  
+[Settings](images/icons/01-menu/settings.svg) _(40x40)_  
+<img src="images/icons/01-menu/settings.svg" alt="icon-settings" width="40" height="40"/> 
+
+[Tools](images/icons/01-menu/tools.svg) _(40x40)_  
+<img src="images/icons/01-menu/tools.svg" alt="icon-tools" width="40" height="40"/> 
 
 ### Utility:
 
-[Back](images/icons/utility/back.svg) _(24x24)_  
+[Back](images/icons/02-utility/back.svg) _(24x24)_  
 <img src="images/icons/utility/back.svg" alt="icon-back" width="24" height="24"/>  
   
-[Page Up](images/icons/utility/page-up.svg) _(16x8)_  
-<img src="images/icons/utility/page-up.svg" alt="icon-page-up" width="16" height="8"/>  
+[Chevron Down](images/icons/02-utility/chevron-down.svg) _(24x24)_  
+<img src="images/icons/02-utility/chevron-down.svg" alt="icon-chevron-down" width="24" height="24"/>  
   
-[Page Down](images/icons/utility/page-down.svg) _(16x8)_  
-<img src="images/icons/utility/page-down.svg" alt="icon-page-down" width="16" height="8"/>  
+[Chevron Left](images/icons/02-utility/chevron-left.svg) _(24x24)_  
+<img src="images/icons/02-utility/chevron-left.svg" alt="icon-chevron-left" width="24" height="24"/>  
   
-[Chevron Right](images/icons/utility/chevron-right.svg) _(8x16)_  
-<img src="images/icons/utility/chevron-right.svg" alt="icon-chevron-right" width="8" height="16"/>  
+[Chevron Right](images/icons/02-utility/chevron-right.svg) _(24x24)_  
+<img src="images/icons/02-utility/chevron-right.svg" alt="icon-chevron-right" width="24" height="24"/>  
+  
+[Chevron Up](images/icons/02-utility/chevron-up.svg) _(24x24)_  
+<img src="images/icons/02-utility/chevron-up.svg" alt="icon-chevron-up" width="24" height="24"/>  
+  
+[Close](images/icons/02-utility/close.svg) _(24x24)_  
+<img src="images/icons/02-utility/close.svg" alt="icon-close" width="24" height="24"/>  
+
+[Page Down](images/icons/02-utility/page-down.svg) _(16x8)_  
+<img src="images/icons/02-utility/page-down.svg" alt="icon-page-down" width="16" height="8"/>  
+  
+[Page Up](images/icons/02-utility/page-up.svg) _(16x8)_  
+<img src="images/icons/02-utility/page-up.svg" alt="icon-page-up" width="16" height="8"/>  
+  
+[Plus](images/icons/02-utility/plus.svg) _(24x24)_  
+<img src="images/icons/02-utility/plus.svg" alt="icon-plus" width="24" height="24"/>  
+  
+[Power](images/icons/02-utility/power.svg) _(24x24)_  
+<img src="images/icons/02-utility/power.svg" alt="icon-power" width="24" height="24"/>  
 
 ### Messaging:
 
-[Confirmation](images/icons/messaging/confirmation.svg) _(40x40)_  
-<img src="images/icons/messaging/confirmation.svg" alt="icon-confirmation" width="40" height="40"/>  
+[Error](images/icons/03-messaging/error.svg) _(40x40)_  
+<img src="images/icons/03-messaging/error.svg" alt="icon-error" width="40" height="40"/>
   
-[Warning](images/icons/messaging/warning.svg) _(40x40)_  
-<img src="images/icons/messaging/warning.svg" alt="icon-warning" width="40" height="40"/>  
+[Success](images/icons/03-messaging/success.svg) _(40x40)_  
+<img src="images/icons/03-messaging/success.svg" alt="icon-success" width="40" height="40"/>  
   
-[Error](images/icons/messaging/error.svg) _(40x40)_  
-<img src="images/icons/messaging/error.svg" alt="icon-error" width="40" height="40"/>  
+[Warning](images/icons/03-messaging/warning.svg) _(40x40)_  
+<img src="images/icons/03-messaging/warning.svg" alt="icon-warning" width="40" height="40"/>    
 
 ### Informational:
 
-[Passphrase](https://fontawesome.com/icons/lock?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/lock-solid.svg" alt="icon-passphrase" width="24" height="24"/>  
-
-[Recipient](https://fontawesome.com/icons/at?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/at-solid.svg" alt="icon-recipient" width="24" height="24"/>  
-
-[Spend](images/icons/informational/bitcoin2.svg)* _(24x24)_  
-<img src="images/icons/informational/bitcoin2.svg" alt="icon-bitcoin2" width="24" height="24"/>  
+[Address](images/icons/04-info/address.svg) _(24x24)_  
+<img src="images/icons/04-info/address.svg" alt="icon-address" width="24" height="24"/>  
   
-[Change](https://fontawesome.com/icons/coins?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/coins-solid.svg" alt="icon-change" width="24" height="24"/>  
-
-[Fee](https://fontawesome.com/icons/chart-pie?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/chart-pie-solid.svg" alt="icon-fee" width="24" height="24"/>  
-
-[Derivation](images/icons/informational/derivation.svg)* _(24x24)_  
-<img src="images/icons/informational/derivation.svg" alt="icon-derivation" width="24" height="24"/>  
+[Change](images/icons/04-info/change.svg) _(24x24)_  
+<img src="images/icons/04-info/change.svg" alt="icon-change" width="24" height="24"/>  
   
-[Fingerprint](images/icons/informational/fingerprint.svg)* _(24x24)_  
-<img src="images/icons/informational/fingerprint.svg" alt="icon-fingerprint" width="24" height="24"/> 
-
-[xPub](https://fontawesome.com/icons/x?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/x-solid.svg" alt="icon-xpub" width="24" height="24"/>   
-
+[Derivation](images/icons/04-info/derivation.svg) _(24x24)_  
+<img src="images/icons/04-info/derivation.svg" alt="icon-derivation" width="24" height="24"/>  
+  
+[Fee](images/icons/04-info/fee.svg) _(24x24)_  
+<img src="images/icons/04-info/fee.svg" alt="icon-fee" width="24" height="24"/>  
+  
+[Fingerprint](images/icons/04-info/fingerprint.svg) _(24x24)_  
+<img src="images/icons/04-info/fingerprint.svg" alt="icon-fingerprint" width="24" height="24"/>  
+  
+[Passphrase](images/icons/04-info/passphrase.svg) _(24x24)_  
+<img src="images/icons/04-info/passphrase.svg" alt="icon-passphrase" width="24" height="24"/>  
+  
 ### Misc:
 
-[More](https://fontawesome.com/icons/ellipsis?s=solid)* _(24x24)_  
-<img src="images/icons/informational/fa/ellipsis-solid.svg" alt="icon-more" width="24" height="24"/>  
+[Bitcoin](images/icons/05-misc/bitcoin.svg) _(24x24)_  
+<img src="images/icons/05-misc/bitcoin.svg" alt="icon-bitcoin" width="24" height="24"/>  
+  
+[Bitcoin Alt](images/icons/05-misc/bitcoin-alt.svg) _(24x24)_  
+<img src="images/icons/05-misc/bitcoin-alt.svg" alt="icon-bitcoin-alt" width="24" height="24"/> 
+  
+[Brightness](images/icons/05-misc/brightness.svg) _(24x24)_  
+<img src="images/icons/05-misc/brightness.svg" alt="icon-brightness" width="24" height="24"/> 
+  
+[MicroSD](images/icons/05-misc/microsd.svg) _(24x24)_  
+<img src="images/icons/05-misc/microsd.svg" alt="icon-microsd" width="24" height="24"/> 
+  
+[QR Code](images/icons/05-misc/qrcode.svg) _(24x24)_  
+<img src="images/icons/05-misc/qrcode.svg" alt="icon-qrcode" width="24" height="24"/> 
+
+### Outstanding Icons:
 
 Single-Sig  
 Multi-Sig  
-Private Key  
+Private Key 
+XPUB 
 Generate XPUB  
 Generate Last Word  
+Keyboard  
 Dice  
 Coinflip  
 Wallet  
@@ -532,6 +560,7 @@ Donate
 Save  
 Available  
 Unavailable  
+More  
 Scan QR Code  
 Scan Image  
 Loading Spinner  
@@ -630,3 +659,8 @@ _When used, should align with the larger navigation ecosystem._
 
 **v0.5** __(2022-02-11)__
 - Added iconography (WIP)
+
+**v0.6** __(2023-08-04)__
+- Updated iconography
+- Added Figma design file
+- Updated usage for messaging overlay
