@@ -76,6 +76,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 **Design File:** [Figma](https://www.figma.com/file/YCvGdWbyhxPrYqxk8gZWuA/SeedSigner)
 
 
+
 ## Measurements
 
 **Standard Measurements (8px Grid System):**
@@ -114,6 +115,7 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 - **Caption:** 14px / 18 lh (SemiBold)
 
 
+
 ## Color Palette
  
 ![Color Palette](images/color-palette.png)
@@ -141,7 +143,6 @@ A modern, user-friendly GUI to make the SeedSigner software interface more acces
 ![Warning](images/colors/swatch-warning.svg) **Warning:** #FFD60A
   
 ![Error](images/colors/swatch-error.svg) **Error:** #FF453A
-
 
 
 ## Layouts
@@ -442,6 +443,7 @@ Variants:
 - Subtitle (224x60)
 
 
+
 ## Iconography
 
 ***Work-in-progress:** Some iconography uses the [FontAwesome](https://fontawesome.com/) icon library, denoted by an asterisk.*
@@ -464,6 +466,15 @@ Variants:
 
 [Back](images/icons/02-utility/back.svg) _(24x24)_  
 <img src="images/icons/02-utility/back.svg" alt="icon-back" width="24" height="24"/>  
+  
+[Check](images/icons/02-utility/check.svg) _(24x24)_  
+<img src="images/icons/02-utility/check.svg" alt="icon-check" width="24" height="24"/>  
+  
+[Checkbox](images/icons/02-utility/checkbox.svg) _(24x24)_  
+<img src="images/icons/02-utility/checkbox.svg" alt="icon-checkbox" width="24" height="24"/>  
+  
+[Checkbox Selected](images/icons/02-utility/checkbox-selected.svg) _(24x24)_  
+<img src="images/icons/02-utility/checkbox-selected.svg" alt="icon-checkbox-selected" width="24" height="24"/>  
   
 [Chevron Down](images/icons/02-utility/chevron-down.svg) _(24x24)_  
 <img src="images/icons/02-utility/chevron-down.svg" alt="icon-chevron-down" width="24" height="24"/>  
@@ -491,6 +502,9 @@ Variants:
   
 [Power](images/icons/02-utility/power.svg) _(24x24)_  
 <img src="images/icons/02-utility/power.svg" alt="icon-power" width="24" height="24"/>  
+  
+[Restart](images/icons/02-utility/restart.svg) _(24x24)_  
+<img src="images/icons/02-utility/restart.svg" alt="icon-restart" width="24" height="24"/>  
 
 ### Messaging:
 
@@ -539,31 +553,10 @@ Variants:
   
 [QR Code](images/icons/05-misc/qrcode.svg) _(24x24)_  
 <img src="images/icons/05-misc/qrcode.svg" alt="icon-qrcode" width="24" height="24"/> 
+  
+[SD Card](images/icons/05-misc/sdcard.svg) _(24x24)_  
+<img src="images/icons/05-misc/sdcard.svg" alt="icon-sdcard" width="24" height="24"/> 
 
-### Outstanding Icons:
-
-Single-Sig  
-Multi-Sig  
-Private Key 
-XPUB 
-Generate XPUB  
-Generate Last Word  
-Keyboard  
-Dice  
-Coinflip  
-Wallet  
-Network  
-QR Code  
-I/O Test  
-Info  
-Donate  
-Save  
-Available  
-Unavailable  
-More  
-Scan QR Code  
-Scan Image  
-Loading Spinner  
 
 
 ## Interactions
@@ -660,7 +653,7 @@ _When used, should align with the larger navigation ecosystem._
 **v0.5** __(2022-02-11)__
 - Added iconography (WIP)
 
-**v0.6** __(2023-08-04)__
+**v0.6** __(2023-08-08)__
 - Updated iconography
 - Added Figma design file
 - Updated usage for messaging overlay
