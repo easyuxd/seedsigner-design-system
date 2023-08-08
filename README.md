@@ -12,7 +12,7 @@
 	- [Color Palette](#color-palette)
 	- [Layouts](#layouts)
 	- [Components](#components)
-	- [Icons](#iconography)
+	- [Iconography](#iconography)
 	- [Interactions](#interactions)
 * [Content Strategy](#content-strategy)
 	- [IA Best Practices](#ia-best-practices)
